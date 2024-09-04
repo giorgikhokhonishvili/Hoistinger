@@ -8,11 +8,13 @@ import {
 } from "react-icons/fa";
 
 export default function Main() {
+  const imgUrl =
+    "https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg";
   return (
     <div id="main" className="relative">
       <img
         className="w-full h-screen object-cover scale-x-[-1] object-left"
-        src="https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg"
+        src={imgUrl}
         alt="Background"
       />
 
